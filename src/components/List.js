@@ -35,7 +35,7 @@ const Button = styled.button`
   margin-left: 20px;
 `;
 
-const ListItem = () => {
+const List = () => {
   const todos = useSelector((state) => state.todo.todos);
   const dispatch = useDispatch();
 
@@ -55,4 +55,4 @@ const ListItem = () => {
   );
 };
 
-export default ListItem;
+export default List;

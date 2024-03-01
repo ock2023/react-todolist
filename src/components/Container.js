@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import AddInput from "./AddInput";
-import ListItem from "./ListItem";
+import List from "./List";
 
 const Border = styled.div`
   display: flex;
@@ -25,7 +25,7 @@ const Container = () => {
       <Border>
         <Title>To Do List</Title>
         <AddInput />
-        <ListItem />
+        <List />
       </Border>
     </div>
   );
